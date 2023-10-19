@@ -1,0 +1,313 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.home_cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5rem;
+    height: 100vh;
+    width: 100%;
+    /* background-color: cadetblue; */
+    color: white;
+    flex-direction: column;
+    background-image: url('../assets/mountain.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    transition: 0.8s cubic-bezier(0.22, 0.78, 0.45, 1.02);
+
+  }
+.arrayHeader{
+    font-size: 6rem;
+}
+.arrayPara{
+    width: 30rem;
+}
+section.banner-form {
+    width: 90%;
+    margin-top: -50px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+  }
+  
+  .banner-form {
+    background: #ffff;
+    padding: 25px 30px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: -50px;
+    border-left: 3px solid #C29D59;
+    border-right: 3px solid #C29D59;
+  }
+  
+  form.form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .form-input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    padding: 10px 45px;
+    border: 1px solid #2B2B2B;
+    border-radius: 5px;
+    color: #2B2B2B;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  
+  .form-input::placeholder {
+    color: #2B2B2B;
+  }
+  
+  .input-box {
+    position: relative;
+    width: 100%;
+    display: block;
+  }
+  
+  .input-box .icon {
+    position: absolute;
+    top: 13px;
+    left: 15px;
+    font-size: 20px;
+    color: #C29D59;
+  }
+  
+  .input-box .arrow {
+    position: absolute;
+    right: 15px;
+    top: 12px;
+    font-size: 20px;
+    color: #2B2B2B;
+    pointer-events: none;
+  }
+  
+  .banner-form form .banner-form-input {
+    max-width: 27.545%;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    flex: 0 0 27.545%;
+  }
+  
+  .banner-form form .banner-form-input.form-btn {
+    max-width: 17.365%;
+    flex: 0 0 17.365%;
+  }
+  
+  .banner-form form .banner-form-input.form-btn .btn {
+    width: 100%;
+  }
+  .sec-btn {
+    width: 170px;
+    height: 50px;
+    background: #C29D59;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 0;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.8s cubic-bezier(0.22, 0.78, 0.45, 1.02);
+    z-index: 2;
+}
+
+.sec-btn span {
+    position: relative;
+    z-index: 1;
+}
+
+.sec-btn:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #2B2B2B;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: bottom;
+    transform-origin: bottom;
+    -webkit-transition: -webkit-transform 0.95s cubic-bezier(0.23, 1, 0.23, 1);
+    transition: transform 0.95s cubic-bezier(0.23, 1, 0.23, 1), -webkit-transform 0.95s cubic-bezier(0.23, 1, 0.23, 1);
+    z-index: -1;
+}
+
+.sec-btn:hover {
+    color: #ffffff;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+}
+
+.sec-btn:hover:before {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-transform-origin: top;
+    transform-origin: top;
+}
+/* ==================ABOUT START================================= */
+.side {
+  
+  background-color: #ffffff;
+  flex-direction: row;
+  padding: 3rem;
+}
+.imageSide{
+  float: left;
+  width: 45%;
+  height: 30rem;
+}
+.sidee{
+  float: right;
+  width: 50%;
+}
+.about {
+  display: flex;
+  text-size-adjust: 0rem;
+  font-size: 3rem;
+  color: #c29d59;
+}
+.plan {
+  font-size: 3rem;
+}
+
+.pone {
+  font-size: 1rem;
+  padding: 1rem;
+}
+/*==========About CSS End==========*/
+/*==========Tour Offer CSS Start==========*/
+
+.tour-offer-box a {
+  display: block;
+}
+
+.tour-offer-box .tour-offer-box-image-wp {
+  padding-right: 30px;
+}
+
+.tour-offer-box .tour-offer-box-image {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  box-shadow: var(--box-shadow);
+}
+
+.discount-label {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  transform: rotate(270deg) translateX(-100%);
+  transform-origin: 0 0;
+  background-color: var(--yellow-color);
+  color: var(--white-color);
+  padding: 5px 10px;
+  font-size: 15px;
+  line-height: 25px;
+  box-sizing: border-box;
+  transition: var(--transition);
+  box-shadow: var(--box-shadow);
+}
+
+.tour-offer-box:hover .discount-label,
+.tour-box:hover .discount-label {
+  padding: 5px 20px;
+}
+
+.tour-offer-box-content {
+  background: var(--white-color);
+  display: flex;
+  justify-content: space-between;
+  border-left: 3px solid var(--yellow-color);
+  box-shadow: var(--box-shadow);
+  margin-left: 30px;
+  margin-top: -30px;
+  position: relative;
+  z-index: 2;
+}
+
+.tour-offer-box-content .h4-title {
+  margin-bottom: 0;
+  margin: 15px 18px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.tour-offer-box-content .price-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--yellow-color);
+  color: var(--white-color);
+  padding: 18px 9px;
+  font-size: 20px;
+  font-family: var(--secondary-font-family);
+  transition: var(--transition);
+  min-width: 60px;
+}
+
+.tour-offer-box a:hover .price-label {
+  background: var(--dark-color);
+}
+
+.tour-offer-top {
+  padding-bottom: 216px;
+}
+
+.tour-offer-slider-wp {
+  margin-top: -226px;
+}
+
+.tour-offer-slider .slick-list {
+  width: calc(100% + 400px);
+  padding-right: 400px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.tour-offer-slider .slick-dots {
+  text-align: left;
+  padding-left: 15px;
+  bottom: -45px;
+}
+
+.tour-offer-slider.slick-slider {
+  margin-bottom: 45px;
+}
+
+.tour-offer-slider .slick-arrow {
+  left: -85px;
+}
+
+.tour-offer-slider .slick-arrow.prev-arrow {
+  top: calc(50% - 30px);
+}
+
+.tour-offer-slider .slick-arrow.next-arrow {
+  top: calc(50% + 30px);
+  right: auto;
+}
+
+/*==========Tour Offer CSS End==========*/
+
+
+

@@ -1,0 +1,45 @@
+.main-container{
+    grid-area: main;
+    overflow-y: auto;
+    padding: 20px 20px;
+    color: rgb(143, 40, 40,0.95);
+}
+.main-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    margin: 15px 0;
+}
+.cardx{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: rgb(109, 107, 107);
+    color: black;
+}
+.cardx:first-child{
+    background-color: #b8b4e9;
+}
+.cardx:nth-child(2){
+    background-color: #b2dfc4;
+}
+.cardx:nth-child(3){
+    background-color: #fedc9e;
+}
+.card-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-inner > .card-iicon{
+    font-size: 20px;
+}
+.charts{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 60px;
+    height: 300px;
+}

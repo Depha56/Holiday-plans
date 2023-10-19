@@ -1,0 +1,126 @@
+ .contact {
+    background-image: url(/contact.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    align-items: center;
+    z-index: 8888;
+    height: 100vh;
+    color: white;
+    /* position: absolute; */
+  }
+  .contact p {
+    font-size: 4rem;
+    padding-top: 20%;
+    padding-left: 40%;
+    display: flex;
+    align-items: center;
+  }
+  .formContact{
+    box-shadow: 1px 1px 4px;
+     width: 55%;
+     height: 70%;
+     padding: 2%;
+     position: absolute;
+     margin-left: 5rem;
+     margin-top: 3rem;
+     
+    
+  }
+  .contact-input{
+    padding: 20px;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 7px;
+  }
+  
+  .contact-text{
+    padding: 50px;
+    width: 100%;
+    border-radius: 7px;
+    
+  }
+  .inputtt{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-submit{
+    padding: 2%;
+    width: 20%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    margin-left: 16px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+    background-color: #c29d59;
+  
+  }
+
+
+  .CONTACTUS {
+    box-shadow: 2px 2px 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 7%;
+    width: 300px;
+    gap: 10px;
+    background-color: #f6f6f6;
+    height: 230px;
+    float: right;
+    margin-right: 5rem;
+    margin-top: -3rem;
+  }
+  .CONTACTUS b {
+    font-size: 18px;
+    padding-left: 0px;
+    margin-left: -4rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    border-left: 3px solid #c29d59;
+  }
+  .CONTACTUS1 {
+    margin-left: -4rem;
+
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #ccc;
+  }
+  .TOURLIST22 {
+    display: flex;
+    float: right;
+    margin-top: 13rem;
+    margin-right: -18.7rem;
+    gap: 20px;
+    height: 250px;
+    width: 300px;
+    padding: 2%;
+    box-shadow: 2px 2px 10px;
+    background-color: #c29d59;
+    color: white;
+    flex-direction: column;
+  }
+  .CONTACTUS2-1 {
+    display: grid;
+    color: aliceblue;
+    grid-gap: 20px;
+  }
+  .TOURLIST22 b {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: aliceblue;
+    font-size: 20px;
+    padding-left: 3px;
+    border-left: 3px solid black;
+  }
+  .TOURLIST22 p {
+    color: aliceblue;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .tourists22 {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  } 
